@@ -7,7 +7,8 @@
     @livewireStyles
 </head>
 <body>
-    @livewire('hello')
+    
+    @yield('content')
 
     @livewireScripts
 </body>
